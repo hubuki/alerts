@@ -17,7 +17,7 @@
             "Hubuki\\LaravelSweetAlert\\": "/src"
         }
     },
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.2-dev"
