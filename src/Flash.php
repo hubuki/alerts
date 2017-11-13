@@ -1,6 +1,6 @@
 <?php
 
-namespace Socieboy\Alerts;
+namespace Hubuki\Alerts;
 
 class Flash {
 

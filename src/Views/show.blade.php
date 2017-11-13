@@ -4,9 +4,9 @@
                 {
                     title: "{{ session('sweet_alert_message.title')}}",
                     text: "{{ session('sweet_alert_message.message')}}",
-                    type: "{{ session('sweet_alert_message.type')}}",
+                    icon: "{{ session('sweet_alert_message.type')}}",
                     timer: 1500,
-                    showConfirmButton: false
+                    buttons: false
                 }
             );
     </script>
@@ -18,8 +18,8 @@
                 {
                     title: "{{ session('sweet_alert_message_overlay.title')}}",
                     text: "{{ session('sweet_alert_message_overlay.message')}}",
-                    type: "{{ session('sweet_alert_message_overlay.type')}}",
-                    confirmButtonText: "Okay!"
+                    icon: "{{ session('sweet_alert_message_overlay.type')}}",
+                    button: "Okay!"
                 }
             );
     </script>

@@ -2,7 +2,7 @@
 
 function alert($title = null, $message = null)
 {
-    $flash = app('Socieboy\Alerts\Flash');
+    $flash = app('Hubuki\Alerts\Flash');
 
     if( func_num_args() == 0)
     {

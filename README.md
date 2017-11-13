@@ -1,4 +1,4 @@
-## Laravel 5.1 Alerts
+## Laravel 5 Alerts
 
 ### Installation
 
@@ -20,22 +20,22 @@ After install this package you have to set the service provider on your config/a
 Socieboy\Alerts\AlertServiceProvider::class
 ```
 
-Copy the required assets of SweetAlert to your public folder.
-Those assets would be place in the css and js respective directory.
+[//]: <> (Copy the required assets of SweetAlert to your public folder.)
+[//]: <> (Those assets would be place in the css and js respective directory.)
 
-```
-php artisan vendor:publish --tag=alerts
-```
+[//]: <> (```)
+[//]: <> (php artisan vendor:publish --tag=alerts)
+[//]: <> (```)
 
 
-Then in your master view add those styles and scripts.
-Put this style between the \<head\> \</head\> tags
-```
-<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
-```
+[//]: <> (Then in your master view add those styles and scripts.)
+[//]: <> (Put this style between the \<head\> \</head\> tags)
+[//]: <> (```)
+[//]: <> (<link rel="stylesheet" type="text/css" href="css/sweetalert.css">)
+[//]: <> (```)
 Add the JS script before close your \</body\> tag.
 ```
-<script src="js/sweetalert.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 ```
 
 Include the alerts view to your master view.

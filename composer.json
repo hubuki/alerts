@@ -1,12 +1,12 @@
 {
-    "name": "socieboy/alerts",
+    "name": "hubuki/alerts",
     "description": "Laravel Alerts with SweetAlerts",
     "type": "package",
     "license": "MIT",
     "authors": [
         {
-            "name": "Francisco Sepulveda",
-            "email": "socieboy@gmail.com"
+            "name": "Hubuki yu",
+            "email": "grace150506@gmail.com"
         }
     ],
     "require": {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Socieboy\\Alerts\\": "/src"
+            "Hubuki\\Alerts\\": "/src"
         }
     }
 }
