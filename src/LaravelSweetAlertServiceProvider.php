@@ -13,7 +13,7 @@ class LaravelSweetAlertServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishFiles();
+        // $this->publishFiles();
 
         $this->loadViewsFrom(__DIR__.'/Views', 'LaravelSweetAlert');
     }

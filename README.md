@@ -19,7 +19,7 @@ composer update
 After install this package you have to set the service provider on your config/app.php file
 
 ```
-Hubuki\LaravelSweetAlert\AlertServiceProvider::class
+Hubuki\LaravelSweetAlert\LaravelSweetAlertServiceProvider::class
 ```
 
 [//]: # (Copy the required assets of SweetAlert to your public folder.)
