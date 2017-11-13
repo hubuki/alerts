@@ -7,7 +7,7 @@
 Add to your composer.json file the package.
 
 ```
-"hubuki/laravel-sweetalerts" : "dev-master"
+"hubuki/laravel-sweetalert" : "dev-master"
 ```
 
 Update your dependencies
