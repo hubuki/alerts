@@ -7,7 +7,7 @@
 Add to your composer.json file the package.
 
 ```
-"socieboy/alerts" : "dev-master"
+"hubuki/alerts" : "dev-master"
 ```
 
 Update your dependencies
