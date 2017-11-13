@@ -73,6 +73,6 @@ alert()->overlay('Title', 'Message', 'error')
 
 #### SweetAlerts website
 
-http://t4t5.github.io/sweetalert/
+https://sweetalert.js.org/
 
 
