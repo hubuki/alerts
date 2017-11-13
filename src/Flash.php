@@ -1,6 +1,6 @@
 <?php
 
-namespace Hubuki\Alerts;
+namespace Hubuki\LaravelSweetAlert;
 
 class Flash {
 

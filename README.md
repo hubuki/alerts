@@ -7,7 +7,7 @@
 Add to your composer.json file the package.
 
 ```
-"hubuki/alerts" : "dev-master"
+"hubuki/laravel-sweetalerts" : "dev-master"
 ```
 
 Update your dependencies
@@ -19,7 +19,7 @@ composer update
 After install this package you have to set the service provider on your config/app.php file
 
 ```
-Socieboy\Alerts\AlertServiceProvider::class
+Hubuki\LaravelSweetAlert\AlertServiceProvider::class
 ```
 
 [//]: # (Copy the required assets of SweetAlert to your public folder.)
@@ -43,7 +43,7 @@ Add the JS script before close your \</body\> tag.
 Include the alerts view to your master view.
 Add this code right after set the JS script file.
 ```
-@include('Alerts::show')
+@include('LaravelSweetAlert::show')
 ```
 
 

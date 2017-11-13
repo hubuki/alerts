@@ -2,7 +2,7 @@
 
 function alert($title = null, $message = null)
 {
-    $flash = app('Hubuki\Alerts\Flash');
+    $flash = app('Hubuki\LaravelSweetAlert\Flash');
 
     if( func_num_args() == 0)
     {

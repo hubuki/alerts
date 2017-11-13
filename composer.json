@@ -1,11 +1,11 @@
 {
-    "name": "hubuki/alerts",
+    "name": "hubuki/laravel-sweetalert",
     "description": "Laravel Alerts with SweetAlerts",
     "type": "package",
     "license": "MIT",
     "authors": [
         {
-            "name": "Hubuki yu",
+            "name": "Hubuki Yu",
             "email": "grace150506@gmail.com"
         }
     ],
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Hubuki\\Alerts\\": "/src"
+            "Hubuki\\LaravelSweetAlert\\": "/src"
         }
     }
 }
