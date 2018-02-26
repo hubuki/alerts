@@ -25,7 +25,7 @@ class LaravelSweetAlertServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        include __DIR__ . '/helpers.php';
+        include_once __DIR__ . '/helpers.php';
     }
 
     // /**
